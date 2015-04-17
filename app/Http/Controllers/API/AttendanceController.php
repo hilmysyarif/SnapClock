@@ -37,6 +37,8 @@ class AttendanceController extends ApiController {
             }
 
             return response()->json($result);
+        } else {
+            return response()->json(['error' => 'true', 'msg' => 'Akses login Anda tidak ditemukan.']);
         }
     }
 

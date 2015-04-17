@@ -139,7 +139,7 @@
 </div>
 
 <div class="copyright">
-    2014 © Metronic. Admin Dashboard Template.
+    2014 © SnapClock sugeng.me
 </div>
 <!-- END LOGIN -->
 <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->

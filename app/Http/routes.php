@@ -45,8 +45,7 @@ Route::group(['namespace' => 'API'], function()
 
 Route::get('token', function()
 {
-    $encrypter = app('Illuminate\Encryption\Encrypter');
-    return $encrypter->encrypt(csrf_token());
+    return view('layouts.default');
 });
 
 Route::group(['namespace' => 'Snappy'], function()
