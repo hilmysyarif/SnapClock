@@ -164,7 +164,6 @@
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
 <script src="assets/scripts/metronic.js" type="text/javascript"></script>
 <script src="assets/scripts/layout.js" type="text/javascript"></script>
-<script src="assets/scripts/demo.js" type="text/javascript"></script>
 <script src="assets/pages/scripts/login.js" type="text/javascript"></script>
 
 <!-- END PAGE LEVEL SCRIPTS -->
@@ -173,7 +172,6 @@
         Metronic.init(); // init metronic core components
         Layout.init(); // init current layout
         Login.init();
-        Demo.init();
 
         Webcam.set({
             width: 320,

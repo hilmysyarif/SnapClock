@@ -15,7 +15,7 @@
         </a>
         <ul class="sub-menu">
             <li>
-                <a href="ecommerce_index.html">
+                <a href="{!! route('employee.index') !!}">
                     <i class="icon-home"></i>
                     Database Karyawan</a>
             </li>
@@ -24,17 +24,17 @@
     <li class="last ">
         <a href="javascript:;">
             <i class="icon-pointer"></i>
-            <span class="title">Maps</span>
+            <span class="title">Laporan</span>
             <span class="arrow "></span>
         </a>
         <ul class="sub-menu">
             <li>
                 <a href="maps_google.html">
-                    Google Maps</a>
+                    Detail Kehadiran</a>
             </li>
             <li>
                 <a href="maps_vector.html">
-                    Vector Maps</a>
+                    Rekap Kehadiran</a>
             </li>
         </ul>
     </li>

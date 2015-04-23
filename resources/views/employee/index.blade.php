@@ -16,26 +16,22 @@
                             <div class="col-md-6">
                                 <div class="btn-group">
                                     <button id="sample_editable_1_new" class="btn green">
-                                        Add New <i class="fa fa-plus"></i>
+                                        TAMBAH KARYAWAN <i class="fa fa-plus"></i>
                                     </button>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="btn-group pull-right">
-                                    <button class="btn dropdown-toggle" data-toggle="dropdown">Tools <i class="fa fa-angle-down"></i>
+                                    <button class="btn red dropdown-toggle" data-toggle="dropdown">LAPORAN <i class="fa fa-angle-down"></i>
                                     </button>
                                     <ul class="dropdown-menu pull-right">
                                         <li>
                                             <a href="#">
-                                                Print </a>
+                                                DOWNLOAD PDF </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                Save as PDF </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Export to Excel </a>
+                                                DOWNLOAD EXCEL </a>
                                         </li>
                                     </ul>
                                 </div>
@@ -49,19 +45,22 @@
                                 <input type="checkbox" class="group-checkable" data-set="#sample_1 .checkboxes"/>
                             </th>
                             <th>
-                                Username
+                                No. Karyawan
                             </th>
                             <th>
-                                Email
+                                Nama
                             </th>
                             <th>
-                                Points
+                                Posisi
                             </th>
                             <th>
-                                Joined
+                                Tanggal Mulai Bekerja
                             </th>
                             <th>
                                 Status
+                            </th>
+                            <th>
+                                Absensi Terakhir
                             </th>
                         </tr>
                         </thead>

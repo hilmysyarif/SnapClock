@@ -55,7 +55,7 @@ class AttendanceController extends ApiController {
             $entry = new TimeEntry([
                 'employee_id' => $input['employee_id'],
                 'start_time' => $carbon->now(),
-                //'entry_start_photo' => $input['photo']
+                'entry_start_photo' => $input['photo']
             ]);
 
             $timesheet->entry()->save($entry);

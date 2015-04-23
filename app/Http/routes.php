@@ -66,12 +66,14 @@ Route::group(['namespace' => 'Snappy'], function()
 
 Route::get('user', function()
 {
-    \SnapClock\Employee::create([
+    $user = \SnapClock\Employee::create([
         'username' => 'sugeng',
         'firstname' => 'Sugeng',
         'lastname' => 'Supriyadi',
-        'email' => 'me@sugeng.me',
-        'password' => Hash::make('secret')
+        'email' => 'me@sugeng.me'
     ]);
+
+    $user->password = Hash::make('secret');
+    $user->save();
 });
 

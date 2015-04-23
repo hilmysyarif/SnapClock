@@ -46,7 +46,7 @@ class CreateOrganaizationsTable extends Migration {
     {
         DB::table('organizations')->insert(
             [
-                'name' => 'FAKULTAS PASCA SARJANA',
+                'name' => 'PROGRAM PASCA SARJANA',
                 'address1' => 'JALAN HANGLEKIR 1',
                 'address2' => 'JAKARTA PUSAT',
                 'phone' => '021-324322',

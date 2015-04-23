@@ -19,6 +19,8 @@ class CreateDepartementsTable extends Migration {
             $table->string('name');
 			$table->timestamps();
 		});
+
+        $this->fill();
 	}
 
 	/**
@@ -31,4 +33,20 @@ class CreateDepartementsTable extends Migration {
 		Schema::drop('departements');
 	}
 
+
+	private function fill()
+	{
+		DB::table('departements')->insert(
+			[
+                [
+                    'organization_id' => 1,
+                    'name' => 'KEUANGAN'
+                ],
+                [
+                    'organization_id' => 1,
+                    'name' => 'TATA USAHA'
+                ]
+			]
+		);
+	}
 }

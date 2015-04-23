@@ -32,4 +32,27 @@ class CreatePositionsTable extends Migration {
         Schema::drop('positions');
 	}
 
+	private function fill()
+	{
+		DB::table('positions')->insert(
+			[
+				[
+					'organization_id' => 1,
+					'code' => 'KA001',
+					'name' => 'KETUA PROGRAM STUDI'
+				],
+				[
+					'organization_id' => 1,
+					'code' => 'KA002',
+					'name' => 'WAKIL PROGRAM STUDI'
+				],
+				[
+					'organization_id' => 1,
+					'code' => 'UA001',
+					'name' => 'KEPALA KEUANGAN'
+				],
+			]
+		);
+	}
+
 }
